@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,100;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(37, 37, 37);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.container{
+    margin:auto;
+    margin-top: 5rem;
+    text-align: center;
+    background-color: rgb(129, 129, 129);
+    max-width: 20rem;
+    max-height: 50rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    
+}
+
+h1{
+    margin-bottom: 2rem;
+    color: rgb(231, 231, 231);;
+    
+}
+
+h2{
+    margin-bottom: 1rem;
+    color:rgb(231, 231, 231);;
+}
+
+.btn{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    
+    font-weight: bold;
+    width: 200px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+
+    transition: all 0.1s;
+
+}
+
+#increment-btn{
+    background-color: rgb(15, 115, 154);
+}
+
+#save-btn{
+    background-color: green;
+}
+
+.btn:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.btn:active{
+    transform: scale(0.95);
+}
+
+#save-el{
+    margin-top: 1.4rem;
+    color: rgb(231, 231, 231);
+    font-weight: 100;
+    font-style: italic;
+}
+
+p{
+   color:  rgb(231, 231, 231);
+}
